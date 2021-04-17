@@ -4,36 +4,46 @@ import {
   faHourglassHalf,
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import NavLink from "./Components/NavLink";
 import "./MainMenu.css";
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+import React from "react";
 
 export const MainMenu = () => (
-  <header className="main-menu">
-    <div className="main-banner">
-      <img src="media/images/logo.png" alt="Olimpia Kąty logo"></img>
-      <p>OLIMPIA KĄTY</p>
-    </div>
-    <nav className="main-nav">
-      <a href="/">
-        <FontAwesomeIcon icon={faHourglassHalf} />
-        <p>Aktualności</p>
-      </a>
-      <a href="/table">
-        <FontAwesomeIcon icon={faListAlt} />
-        <p>Tabela</p>
-      </a>
-      <a href="/calendar">
-        <FontAwesomeIcon icon={faCalendarAlt} />
-        <p>Terminarz</p>
-      </a>
-      <a href="/team">
-        <FontAwesomeIcon icon={faUsers} />
-        <p>Kadra</p>
-      </a>
-      <a href="/gallery">
-        <FontAwesomeIcon icon={faCamera} />
-        <p>Galeria</p>
-      </a>
-    </nav>
-  </header>
+  <>
+    <Router>
+      <header className="main-menu">
+        <div className="main-banner">
+          <img src="media/images/logo.png" alt="Olimpia logo"></img>
+          <p>OLIMPIA KĄTY</p>
+        </div>
+        <nav className="main-nav">
+          <NavLink path="/" iconName={faHourglassHalf} name="Aktualności" />
+          <NavLink path="/table" iconName={faListAlt} name="Tabela" />
+          <NavLink path="/calendar" iconName={faCalendarAlt} name="Terminarz" />
+          <NavLink path="/team" iconName={faUsers} name="Kadra" />
+          <NavLink path="/gallery" iconName={faCamera} name="Galeria" />
+        </nav>
+      </header>
+      <section className="main-content">
+        <Switch>
+          <Route exact path="/">
+            <p>Aktualnosci tutaj</p>
+          </Route>
+          <Route path="/table">
+            <p>Tabela tutaj</p>
+          </Route>
+          <Route path="/calendar">
+            <p>Terminarz tutaj</p>
+          </Route>
+          <Route path="/team">
+            <p>Kadra tutaj</p>
+          </Route>
+          <Route path="/gallery">
+            <p>Galeria tutaj</p>
+          </Route>
+        </Switch>
+      </section>
+    </Router>
+  </>
 );
