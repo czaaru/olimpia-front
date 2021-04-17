@@ -1,0 +1,50 @@
+.main-banner {
+  display: grid;
+  grid-template-areas:
+    "logo text text text"
+    "logo text text text"
+    "logo blank blank blank";
+  background-color: var(--main-blue);
+  color: white;
+  padding: 5px 15px 0px;
+}
+
+.main-banner > img {
+  grid-area: logo;
+}
+
+.main-banner > p {
+  grid-area: text;
+}
+
+.main-nav {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: var(--main-white);
+  height: 42px;
+  box-sizing: border-box;
+  padding: none;
+  border: none;
+  border-bottom: 2px solid var(--main-gray);
+}
+a {
+  background-color: none;
+  color: var(--main-blue);
+  height: 40px;
+  width: auto;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 2px 4px 4px 4px;
+  font-size: 120%;
+}
+
+a:hover {
+  background-color: #d8d8d8;
+}
+
+a > p {
+  font-size: 60%;
+  margin-block-start: 0;
+}
