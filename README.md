@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Amateur football club website - Olimpia Kąty
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[GitHub Pages Link](https://czaaru.github.io/olimpia-front/)
 
 ## Available Scripts
 
