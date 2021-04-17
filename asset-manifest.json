@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/olimpia-front/static/css/main.53da21f4.chunk.css",
+    "main.js": "/olimpia-front/static/js/main.2e7b0e9f.chunk.js",
+    "main.js.map": "/olimpia-front/static/js/main.2e7b0e9f.chunk.js.map",
+    "runtime-main.js": "/olimpia-front/static/js/runtime-main.e38be6ea.js",
+    "runtime-main.js.map": "/olimpia-front/static/js/runtime-main.e38be6ea.js.map",
+    "static/css/2.679831fc.chunk.css": "/olimpia-front/static/css/2.679831fc.chunk.css",
+    "static/js/2.3b2e28f6.chunk.js": "/olimpia-front/static/js/2.3b2e28f6.chunk.js",
+    "static/js/2.3b2e28f6.chunk.js.map": "/olimpia-front/static/js/2.3b2e28f6.chunk.js.map",
+    "static/js/3.abfd3eef.chunk.js": "/olimpia-front/static/js/3.abfd3eef.chunk.js",
+    "static/js/3.abfd3eef.chunk.js.map": "/olimpia-front/static/js/3.abfd3eef.chunk.js.map",
+    "index.html": "/olimpia-front/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/olimpia-front/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.53da21f4.chunk.css.map": "/olimpia-front/static/css/main.53da21f4.chunk.css.map",
+    "static/js/2.3b2e28f6.chunk.js.LICENSE.txt": "/olimpia-front/static/js/2.3b2e28f6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e38be6ea.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.3b2e28f6.chunk.js",
+    "static/css/main.53da21f4.chunk.css",
+    "static/js/main.2e7b0e9f.chunk.js"
+  ]
+}
