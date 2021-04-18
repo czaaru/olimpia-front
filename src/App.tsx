@@ -1,11 +1,16 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import MainPage from "./Components/MainPage";
+import MainMenu from "./components/MainMenu";
+import MainPage from "./components/MainPage";
 
 function App() {
   return (
-    <div className="app">
-      <MainPage />
-    </div>
+    <BrowserRouter>
+      <div className="app">
+        <MainMenu />
+        <MainPage />
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,33 @@
+.main-content {
+  text-align: center;
+  margin: auto;
+}
+
+.main-content > div {
+  margin: 10px auto;
+}
+
+.main-content > iframe {
+  border: none;
+  overflow: hidden;
+}
+
+.facebook-desktop {
+  display: none;
+}
+
+@media (min-width: 520px) {
+  .facebook-desktop {
+    display: block;
+  }
+
+  .facebook-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 300px) {
+  .facebook-mobile {
+    display: none;
+  }
+}

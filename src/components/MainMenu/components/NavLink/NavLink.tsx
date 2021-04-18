@@ -9,7 +9,7 @@ interface NavLinkProps {
 }
 
 export const NavLink = ({ path, iconName, name }: NavLinkProps) => (
-  <Link to={path}>
+  <Link to={"/olimpia-front" + path}>
     <FontAwesomeIcon icon={iconName} />
     <p>{name}</p>
   </Link>
