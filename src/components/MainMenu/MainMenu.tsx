@@ -10,7 +10,7 @@ import "./MainMenu.css";
 export const MainMenu = () => (
   <header className="main-menu">
     <div className="main-banner">
-      <img src="olimpia-front/media/images/logo.svg" alt="Olimpia logo"></img>
+      <img src="media/images/logo.svg" alt="Olimpia logo"></img>
       <p>OLIMPIA KĄTY</p>
     </div>
     <div className="under-banner">
