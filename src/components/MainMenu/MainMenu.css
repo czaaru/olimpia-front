@@ -2,6 +2,9 @@
   display: grid;
   grid-template: "banner" "underbanner" "nav";
   min-width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -75px;
 }
 
 .main-banner {
