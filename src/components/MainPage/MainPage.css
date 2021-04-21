@@ -1,6 +1,12 @@
 .main-content {
   text-align: center;
   margin: auto;
+  min-height: calc(100vh - 189px);
+}
+
+.main-content > p {
+  padding: 25px;
+  justify-content: center;
 }
 
 .main-content > div {
