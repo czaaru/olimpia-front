@@ -49,7 +49,7 @@
   border-top: 2px solid var(--second-color-shade);
   border-bottom: 2px solid var(--second-color-shade);
 }
-a {
+.main-nav > a {
   background-color: none;
   color: var(--first-color);
   height: 40px;
@@ -62,7 +62,7 @@ a {
   font-size: 120%;
 }
 
-a:hover {
+.main-nav > a:hover {
   background-color: var(--second-color-shade);
 }
 

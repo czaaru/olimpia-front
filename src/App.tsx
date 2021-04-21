@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
+import { Footer } from "./components/Footer/Footer";
 import MainMenu from "./components/MainMenu";
 import MainPage from "./components/MainPage";
 
@@ -9,6 +10,7 @@ function App() {
       <div className="app">
         <MainMenu />
         <MainPage />
+        <Footer />
       </div>
     </BrowserRouter>
   );
